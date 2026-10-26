@@ -1,0 +1,10 @@
+
+{
+  "name": "smart-monthly-budget-planner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --prefix client",
+    "start": "npm run build --prefix client && npm start --prefix server"
+  }
+}
